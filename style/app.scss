@@ -162,9 +162,10 @@ body
 
 #nav-links a
 {
-  font-weight : normal;
-  color       : #ffffff;
-  font-size   : 20px;
+  font-weight    : normal;
+  color          : #ffffff;
+  font-size      : 20px;
+  padding-bottom : 5px;
 }
 
 #nav-links > li
@@ -176,7 +177,8 @@ body
 
 #nav-links > li > a:hover
 {
-  color : #a9a9a9;
+  color         : #a9a9a9;
+  border-bottom : solid #a9a9a9 5px;
 }
 
 #nav-fb
